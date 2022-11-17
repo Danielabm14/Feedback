@@ -34,8 +34,8 @@ const restNota = () => {
             <div className="text-display">
                  { text }
             </div>
-            <button onClick={addNota}>Sumar Nota</button>
-            <button onClick={restNota}>Restar Nota</button>
+            <button className="btn-secondary " onClick={addNota}>Sumar Nota</button>
+            <button className="btn-secondary " onClick={restNota}>Restar Nota</button>
 
     </div>
     )
